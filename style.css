@@ -6,6 +6,44 @@ body {
     color: #533738;
 }
 
+h1{
+    font-size: 50px;
+    line-height: 62px;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight:lighter;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 37px;
+    font-weight: 500;
+}
+
+button, .button {
+    background-color: #CC8B86;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+a{
+    padding: 0;
+    text-decoration: none;
+    color: #533738; 
+}
+
 main{
     background-color: #EFE6E4;
 }
@@ -33,11 +71,7 @@ nav ul li{
     margin: auto 13px;
 }
 
-nav ul li a{
-    padding: 0;
-    text-decoration: none;
-    color: #533738; 
-}
+
 
 .logo {
     position: absolute;
@@ -60,30 +94,13 @@ nav ul li a{
     margin: auto 184px;
 }
 
-h1{
-    font-size: 50px;
-    line-height: 62px;
-}
-
-h2{
-    font-size: 18px;
-    line-height: 30px;
-    font-weight:lighter;
-}
-
 .slogan button{
     width: 309px;
     height: 74px;
-    background-color: #CC8B86;
-    border: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
 
 }
 
-.about_us{
+.about_us, .team_skill h2{
     text-align: center;
 }
 
@@ -91,8 +108,101 @@ h2{
     background-color: #8D7370;
 }
 
-.achiev p{
-    font-size: 50px;
-    line-height: 62px;
+.achiev h1, h3{
     color: #FFFFFF;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work1{
+    background-image: url("img/work1.png");
+    width: 488px;
+    height: 451px;
+    color: white;
+    z-index: 0;
+}
+.work1_text{
+    background-color: rgba(100, 72, 69, 0.8);
+    z-index: 1;
+    width: 488px;
+    height: 451px;
+}
+.work2{
+    background-image: url("img/work2.png");
+    width: 692px;
+    height: 451px;
+}
+.work3{
+    background-image: url("img/work3.png");
+    width: 692px;
+    height: 451px;
+}
+.work4{
+    background-image: url("img/work4.png");
+    width: 488px;
+    height: 451px;
+}
+
+.next {
+    font-style: normal;
+    font-size: 30px;
+    line-height: 37px;
+    border: none;
+    background-color: rgba(28,28,28,0);
+    margin: 0 auto;
+    display: block;
+
+.team{
+    background-color: #E2C4BA;
+    width: 1400px;
+    height: 998px;
+}
+
+.team div{
+    width: 320px;
+    height: 440px;
+}
+
+.skill{
+    width: 285px;
+}
+
+.skill div{
+    position: relative;
+}
+
+.skill div div img, .skill div div h3 {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.skill div p{
+    text-align: center;
+}
+
+.review img{
+    width: 407px;
+    height: 272px;
+}
+
+.submit{
+    background-color: #8D7370;
+    color: #FFFFFF;
+}
+
+.form{
+    width: 512px;
+    height: 394px;
+}
+
+.submit div img{
+    width: 590px;
+    height: 624px;
 }
