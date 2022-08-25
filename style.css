@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     max-width: 1400px;
     margin: auto;
@@ -9,6 +25,8 @@ body {
 h1{
     font-size: 50px;
     line-height: 62px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 h2{
@@ -48,19 +66,41 @@ main{
     background-color: #EFE6E4;
 }
 
-.primary {
+.page-header{
     background-image: url('img/main.png');
     height: 715px;
-    margin-bottom: 65px;
+    display: flex;
+    flex-direction:column;
 }
+
+.wide-container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 1201px;
+    height: 25px;
+    justify-content: space-between;
+    margin: 36px 116px 0 99px;
+}
+
+.logo {
+
+
+}
+
+.logo img {
+}
+
+.logo p {
+}
+
+
 nav {
-    max-width: 1201px;
-    top: 0px;
-    margin: 0px 100px auto 98px;
-    padding: 36px 0 0 0;
+    
 }
 
 nav ul{
+    margin: 0;
     list-style-type: none;
     color: #533738;
     
@@ -68,39 +108,44 @@ nav ul{
 
 nav ul li{
     display: inline;
-    margin: auto 13px;
 }
 
-
-
-.logo {
-    position: absolute;
-    top: 38px;
-
+.promo {
+    margin-bottom: 65px;
 }
 
-.logo img {
-    padding: 0;
-    margin: 0;
-}
-
-.logo p {
-    padding: 0;
-    margin: 0;
-}
-
-.slogan {
+.main-heading{
     width: 534px;
-    margin: auto 184px;
 }
 
-.slogan button{
+
+
+.promo-description{
+    width: 493px;
+    margin-top: 24px;
+}
+
+.promo .button{
     width: 309px;
     height: 74px;
 
 }
 
-.about_us, .team_skill h2{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about, .team_skill h2{
     text-align: center;
 }
 

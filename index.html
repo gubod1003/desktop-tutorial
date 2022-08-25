@@ -6,27 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCANDI - Поможем сделать вашу квартиру уютнее</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  
     <meta property="og:title" content="SCANDI - Поможем сделать вашу квартиру уютнее">
     <meta property="og:description" content="Описание страницы в OG">
     <meta property="og:image" content="https://example.com/image.jpg">
     <meta property="og:url" content="https://example.com/">
 </head>
 <body>
-    <header>
-        
-    </header>
-    <main>
-        <!--Primary section-->
-        <section class="primary">
+    <header class="page-header">
+        <div class="wide-container">
+            <a class="logo">
+                <img src="img/logo.svg" alt="Логотип компании SCANDI - графическое изображение торшера" width="25" height="25">SCANDI
+            </a>
             <nav>
-                <div class="logo">
-                    <img src="img/logo.svg" alt="Logo">
-                    <p>SCANDI</p>
-                </div>
                 <ul>
                     <li><a href="#">О компании</a></li>
                     <li><a href="#">Портфолио</a></li>
@@ -34,25 +25,36 @@
                     <li><a href="#">Как мы работаем</a></li>
                     <li><a href="#">Отзывы клиентов</a></li>
                     <li><a href="#">Оставить заявку</a></li>
-                    <li>+7 (981) 857-46-24</li>
-                  </ul>
+                </ul>
             </nav>
-            <div class="slogan">
-                <h1>Поможем сделать вашу квартиру уютнее</h1>
-                <p>Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку </p>
-                <button>Оставить заявку</button>
-            </div>
-            
-            
+            <a href="tel:+79818574624" class="phone">+7 (981) 857-46-24</a>
+        </div>
+        <!--Promo-->
+        <section class="promo">
+            <div class="container">
+                <div class="promo-text">
+                    <h1 class="main-heading">Поможем сделать вашу квартиру уютнее</h1>
+                    <p class="promo-description">Подбираем текстиль, мебель и аксессуары под&nbsp;ваш&nbsp;интерьер, находим магазины <br> и помогаем организовать доставку</p>
+                    <a id="link" href="#form" class="button promo-button">Оставить заявку</a> 
+                </div>
+            </div>     
         </section>
+    </header>
+    <main>
+        
 
         <!--Section about us-->
-        <section class="about_us">
-            <h2>О нас</h2>
-            <div>
-                <img src="img/about.png" alt="О нас">
-            <p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,  что по-настоящему вдохновляет дизайнеров нашей студии. 
-                Наш коллектив сделает все, чтобы после сотрудничества с нами,  Вам было приятно сказать: « Да! Это именно то, что действительно достойно моего дома!»</p>
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-heading">О нас</h2>
+                <div class="half-wrap">
+                    <img src="img/about.png" alt="Белая роза с сухоцветами на обеденном столе, по бокам от которой стоят прозрачные бокалы" class="about-img" width="445" height="465">
+                    <div class="text-wrap">
+                        <p>Премиальный европейский текстиль — <br>одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов,
+                            уделяя внимание мельчайшим деталям —<br>вот то, что по-настоящему вдохновляет дизайнеров нашей студии.</p>
+                        <p>Наш коллектив сделает все, чтобы после сотрудничества с нами,  Вам было приятно сказать: « Да! Это именно то, что действительно достойно моего дома!»</p>
+                    </div>
+                </div>
             </div>
             <div class="achiev">
                 <h1>5</h1> <h3>ЛЕТ ОПЫТА</h3>
