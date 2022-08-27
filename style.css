@@ -51,9 +51,10 @@ button, .button {
 }
 
 p {
+    font-style: normal;
+    font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    font-weight: 500;
 }
 
 a{
@@ -152,26 +153,46 @@ nav ul li{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.about, .team_skill h2{
-    text-align: center;
+.about{
+    padding-top: 65px;   
 }
+
+.section-heading{
+    text-align: center;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.half-wrap{
+    margin-top: 40px;
+    display: flex;
+    column-gap: 63px;
+    margin-left: 182px;
+}
+
+.text-wrap{
+    width: 528px;
+    text-align: left;
+    margin-top: 0;
+}
+.text-wrap p{
+    margin-top: 0;
+}
+
 
 .achiev {
     background-color: #8D7370;
+    margin-top: 21px;
+    padding: 85px 180px 81px 182px;
+}
+
+.achiev_list{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 .achiev h1, h3{
@@ -179,10 +200,13 @@ nav ul li{
     margin: 0;
 }
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
-}
+
+
+
+
+
+
+
 
 .work1{
     background-image: url("img/work1.png");
