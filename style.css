@@ -79,16 +79,19 @@ main{
     padding: 0;
     width: 1201px;
     height: 25px;
-    justify-content: space-between;
-    margin: 36px 116px 0 99px;
+    justify-content: flex-start;
+    margin: 36px 100px 0 98px;
 }
 
 .logo {
+    
 
 
 }
 
 .logo img {
+    text-align: center;
+    vertical-align: middle;
 }
 
 .logo p {
@@ -96,18 +99,29 @@ main{
 
 
 nav {
-    
+    margin-left: 89px;
+    vertical-align: baseline;
 }
 
 nav ul{
     margin: 0;
+    padding: 0;
     list-style-type: none;
     color: #533738;
+    display: flex;
+    justify-content: space-between;
     
 }
 
 nav ul li{
-    display: inline;
+    padding-right: 26px;
+}
+
+.phone{
+    margin: 0;
+    margin-left: 10px;
+    align-self: flex-end;
+    vertical-align: baseline;
 }
 
 .promo {
@@ -116,18 +130,25 @@ nav ul li{
 
 .main-heading{
     width: 534px;
+    padding: 0;
+    margin: 0;
+    margin-top: 91px;
+    margin-left: 184px;
 }
-
-
 
 .promo-description{
     width: 493px;
     margin-top: 24px;
+    margin-left: 184px;
+    margin-bottom: 21px;
 }
 
-.promo .button{
-    width: 309px;
-    height: 74px;
+.promo-button{
+    display: block;
+    margin-top: 0;
+    padding: 25px 65px;
+    margin-left: 184px;
+    width: 179px;
 
 }
 
