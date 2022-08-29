@@ -12,7 +12,7 @@
     <meta property="og:url" content="https://example.com/">
 </head>
 <body>
-    <header class="page-header">
+    <header class="page-header" id="menu">
         <div class="wide-container">
             <a class="logo">
                 <img src="img/logo.svg" alt="Логотип компании SCANDI - графическое изображение торшера" width="25" height="25">SCANDI
@@ -23,7 +23,7 @@
                     <li><a href="#our-work">Портфолио</a></li>
                     <li><a href="#our-team">Команда</a></li>
                     <li><a href="#our-skill">Как мы работаем</a></li>
-                    <li><a href="#">Отзывы клиентов</a></li>
+                    <li><a href="#review">Отзывы клиентов</a></li>
                     <li><a href="#">Оставить заявку</a></li>
                 </ul>
             </nav>
@@ -77,7 +77,7 @@
                  <div class="work3"></div>
                  <div class="work4"></div>
             </div>  
-            <a class="next" href="#promo">Смотреть еще &xrarr;</a>
+            <a class="next" href="#menu">Смотреть еще &xrarr;</a>
         </section>
 
         
@@ -128,17 +128,21 @@
         
 
         <!--Reviews about us-->
-        <section class="review">
-            <h2>Отзывы</h2>
-            <div>
-                <p>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.</p>
-                <p>Работа шла быстро, было очень приятно общаться и взаимодествовать с сотрудниками. Не ожидала, что это будет так легко!</p> 
-                <p>Буду советовать и своим друзьям к вам обращаться!»</p>
-                <p>АННА БЕЛОВСКАЯ</p>
-            </div>
-            <div>
-                <img src="img/otziv1.png" alt="Фото отзыва 1">
-                <img src="img/otziv2.png" alt="Фото отзыва 2">
+        <section class="review" id="review">
+            <h2 class="review_title">Отзывы</h2>
+            <div class="review_carousel">
+                <div class="review_prev"></div>
+                <div class="review-text">
+                    <q>Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.<br><br>
+                        Работа шла быстро, было очень приятно общаться и взаимодествовать с сотрудниками. Не ожидала, что это будет так легко!<br><br>
+                        Буду советовать и своим друзьям к вам обращаться!</q><br>
+                        <cite>АННА БЕЛОВСКАЯ</cite>
+                </div>
+                <div class="review-img">
+                    <img src="img/otziv1.png" alt="Фото отзыва 1">
+                    <img src="img/otziv2.png" alt="Фото отзыва 2">
+                </div>
+                <div class="review_next"></div>
             </div>
         </section>
 
