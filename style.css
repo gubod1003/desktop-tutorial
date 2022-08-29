@@ -200,26 +200,56 @@ nav ul li{
     margin: 0;
 }
 
+.our-work {
+    margin: 65px 100px 0 100px;
+}
 
+.our-work_title {
+    margin: 0;
 
+}
 
-
-
-
-
+.our-work .container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 20px;
+}
 
 .work1{
     background-image: url("img/work1.png");
     width: 488px;
     height: 451px;
     color: white;
-    z-index: 0;
+    position: relative;
+    cursor: pointer;
 }
 .work1_text{
-    background-color: rgba(100, 72, 69, 0.8);
-    z-index: 1;
+    z-index: -1;
     width: 488px;
     height: 451px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(100, 72, 69, 0.8);
+}
+
+.work1_text h3{
+    text-align: center;
+    margin: 86px 106px 23px;
+    width: 270px;
+}
+
+.work1_text p{
+    width: 418px;
+    text-align: justify;
+    margin: 0 35px;
+}
+
+.work1:hover {
+    z-index: 0;
+    
 }
 .work2{
     background-image: url("img/work2.png");
@@ -241,9 +271,9 @@ nav ul li{
     font-style: normal;
     font-size: 30px;
     line-height: 37px;
-    border: none;
     background-color: rgba(28,28,28,0);
     margin: 0 auto;
+    text-align: center;
     display: block;
 
 .team{
