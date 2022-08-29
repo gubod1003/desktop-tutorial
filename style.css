@@ -299,7 +299,7 @@ nav ul li{
     height: 443px;
 }
 
-.team_title, .skill_title{
+.team_title, .skill_title, .submit-title{
 width: auto;
 margin: 0 auto;
 }
@@ -440,6 +440,21 @@ margin: 0 auto;
 .submit{
     background-color: #8D7370;
     color: #FFFFFF;
+    display: flex;
+    width: 1400px;
+    height: 624px;
+    justify-content: flex-end;
+}
+.submit-title{
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.submit-description{
+    margin-top: 24px;
 }
 
 .form{
@@ -447,7 +462,36 @@ margin: 0 auto;
     height: 394px;
 }
 
-.submit div img{
+.name, .tel {
+    border: none;
+    border-bottom: 1px solid #F6EDE9;
+    background-color: #8D7370;
+    color: #F6EDE9;
+    width: 508px;
+    height: 35px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+
+.name{
+    margin-top: 44px;
+}
+
+.tel{
+    margin-top: 35px;
+}
+
+.submit-button{
+    width: 309px;
+    height: 74px;
+    margin-top: 31px;
+}
+
+.map{
     width: 590px;
     height: 624px;
+    margin-right: 101px;
+    margin-left: 20px;
+    color: #533738;
 }
+
