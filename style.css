@@ -495,3 +495,15 @@ margin: 0 auto;
     color: #533738;
 }
 
+.contact{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 37px;
+    padding-bottom: 50px;
+    background-color: #EFE6E4;
+}
+
+.contact>div{
+    display: flex;
+    column-gap: 42px;
+}
