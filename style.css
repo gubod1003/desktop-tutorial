@@ -55,6 +55,7 @@ p {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
+    margin: 0;
 }
 
 a{
@@ -84,20 +85,10 @@ main{
     margin: 36px 100px 0 98px;
 }
 
-.logo {
-    
-
-
-}
-
 .logo img {
     text-align: center;
     vertical-align: middle;
 }
-
-.logo p {
-}
-
 
 nav {
     margin-left: 89px;
@@ -173,9 +164,6 @@ nav ul li{
 .text-wrap{
     width: 528px;
     text-align: left;
-    margin-top: 0;
-}
-.text-wrap p{
     margin-top: 0;
 }
 
@@ -275,37 +263,99 @@ nav ul li{
     margin: 0 auto;
     text-align: center;
     display: block;
+}
+
+.our_skill, .our_team {
+    width: 1399px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our_team{
+    margin-top: 65px;
+    padding-top: 50px;
+}
 
 .team{
-    background-color: #E2C4BA;
-    width: 1400px;
-    height: 998px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 1036px;
+    height: 443px;
 }
 
-.team div{
+.team_title, .skill_title{
+width: auto;
+margin: 0 auto;
+}
+
+.team_member {
     width: 320px;
-    height: 440px;
+    height: 443px;
+    text-align: left;
 }
 
-.skill{
+.our_skill {
+    margin-top: 35px;
+}
+
+.back_team_skill{
+    background-color: #E2C4BA;
+    min-height: 998px ;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-top: 40px;
+}
+
+.skill_descript{
+    display: flex;
+    flex-direction: column;
     width: 285px;
 }
 
-.skill div{
-    position: relative;
+.ellipse{
+    background-color: #8D7370;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    align-self: center;
 }
 
-.skill div div img, .skill div div h3 {
+.ellipse::before{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
     position: absolute;
-    margin: 0;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    padding: 20px 26px;
+    
 }
-.skill div p{
-    text-align: center;
+
+.ellipse-1::before {
+    content: "1";
+    padding: 20px 29px;
 }
+.ellipse-2::before {
+    content: "2";
+}
+.ellipse-3::before {
+    content: "3";
+}
+.ellipse-4::before {
+    content: "4";
+    padding: 20px 24px;
+}
+
+.skill_descript p{
+    margin-top: 20px;
+}
+
+
 
 .review img{
     width: 407px;
